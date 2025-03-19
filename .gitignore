@@ -1,0 +1,26 @@
+# Ignore python virtual environment
+venv/
+.venv/
+
+# Ignore Node.js environment dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Ignore playwright test results
+test-results/
+playwright-report/
