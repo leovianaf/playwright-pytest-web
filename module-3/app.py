@@ -7,39 +7,39 @@ with sync_playwright() as playwright:
 
   # Mouse actions
 
-  # button = page.get_by_role("button", name="Block button").first
+  button = page.get_by_role("button", name="Block button").first
 
-  # button.click()
+  button.click()
 
-  # button.dblclick()                            # Double click the button
+  button.dblclick()                            # Double click the button
 
-  # button.dblclick(delay=500)                   # Double click the button with a delay of 500ms
+  button.dblclick(delay=500)                   # Double click the button with a delay of 500ms
 
-  # # button.click(button="right")                 # Right click the button
+  # button.click(button="right")                 # Right click the button
 
-  # button.click(button="middle")                # Middle click the button
+  button.click(button="middle")                # Middle click the button
 
-  # button.click(modifiers=["Shift"])            # Click the button while holding the Shift key
+  button.click(modifiers=["Shift"])            # Click the button while holding the Shift key
 
-  # button.click(modifiers=["Shift", "Control"]) # Click the button while holding the Shift and Control key
+  button.click(modifiers=["Shift", "Control"]) # Click the button while holding the Shift and Control key
 
-  # # Input functions
+  # Input functions
 
-  # input = page.get_by_placeholder("Enter email")
+  input = page.get_by_placeholder("Enter email")
 
-  # input.fill("test@email.com")             # Just pass the text to the fill method
+  input.fill("test@email.com")             # Just pass the text to the fill method
 
-  # input.clear()                            # Clear the input field
+  input.clear()                            # Clear the input field
 
-  # input.type("teste@email.com")            # Type the text in the input field
+  input.type("teste@email.com")            # Type the text in the input field
 
-  # input.clear()
+  input.clear()
 
-  # input.type("teste@email.com", delay=200) # Type the text in the input field (simulating a human typing with a delay of 200ms)
+  input.type("teste@email.com", delay=200) # Type the text in the input field (simulating a human typing with a delay of 200ms)
 
-  # valid_input = page.get_by_label("Valid input").first
+  valid_input = page.get_by_label("Valid input").first
 
-  # print(valid_input.input_value())         # Check the value in the input field
+  print(valid_input.input_value())         # Check the value in the input field
 
   # Checkboxes, Radios and Switches
 
